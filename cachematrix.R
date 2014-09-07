@@ -4,6 +4,8 @@
 ## Write a short comment describing this function
 ## This function returns a matrix object that has getter/setter for both original and inverse matrix.
 makeCacheMatrix <- function(x = matrix()) {
+  ## At first, I misunderstood the function of this function as calculating inverse matrix is also done by this function.
+  ## below is it. 
   #   i <- solve(x)
   #   get <- function() x
   #   set <- function(y){

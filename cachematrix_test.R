@@ -1,5 +1,8 @@
 source("./cachematrix.R")
 
+# the porpuse of This test is drive myself into writing th code.
+# NOT intended for verify the code. 
+
 util.matcomp <- function(x,y){
   identical(all.equal(x,y),TRUE)
 }
